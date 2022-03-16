@@ -1,0 +1,25 @@
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		int number1 = 472;
+		number1 = input.nextInt();
+		int number2 = 385;
+		number2 = input.nextInt();
+		
+		System.out.println(number1 * (number2 % 10));
+		System.out.println(number1 * (number2 % 100 / 10));
+		System.out.println(number1 * (number2 / 100));
+		System.out.println(number1 * number2);
+	
+
+	}
+	
+}
+	
