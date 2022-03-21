@@ -1,0 +1,34 @@
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner input = new Scanner(System.in);
+		
+		
+		int H = input.nextInt();
+	
+		int M = input.nextInt();
+		
+		int S = input.nextInt();
+		
+		int D = input.nextInt();
+		
+		
+		S += D;
+        M += S/60;
+        S %= 60;
+        H += M/60;
+        M %= 60;
+        H %= 24;
+        
+		
+		System.out.println(H + " " + M + " " + S);
+
+	}
+	
+}
+	
