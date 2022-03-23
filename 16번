@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 public class Main {
-
+//저 혼자서 3시간 동안 고민하다 물어보기전 인터넷에 검색을 해보아서 인터넷을 참고해서 작성하였습니다.
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
